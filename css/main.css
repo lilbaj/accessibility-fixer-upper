@@ -40,8 +40,8 @@ a:hover {
   color: #113c00;
 }
 
-nav ul li a:focus {
-
+.nav a:focus {
+  outline-color: #113c00;
 }
 
 .about {
@@ -73,7 +73,6 @@ td {
 .btn {
   background-color: #113c00;
   border-color: #113c00;
-
   color: #fff;
 }
 
@@ -89,6 +88,10 @@ td {
 
 .read-more {
   color: #104c00;
+}
+
+.skip-links a {
+  text-decoration: underline;
 }
 
 .dink {
